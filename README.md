@@ -1,29 +1,54 @@
-# GARUD — Turning an Idea into Engineering Reality
+﻿# Project GARUD: Thrust-Vector-Controlled Model Rocket
 
-*Thrust Vector Control Model Rocket*
+**Project Objective:**  
+Design, analysis, fabrication, and testing of a thrust-vector-controlled (TVC) model rocket.
 
-> What began as our original concept became a five-month effort to turn a controlled-landing rocket idea into a physical engineering system.
+GARUD was a four-member multidisciplinary engineering project that took a rocket concept through simulation, mechanical design, control-system development, fabrication, and physical integration.
 
-## The Challenge
+---
 
-We set out to develop a model rocket concept combining thrust-vector control with retro-thrust-assisted landing.
+## Project Overview
 
-## My Role
+The project was an end-to-end engineering exercise in developing a thrust-vector-controlled model rocket. Rather than treating trajectory analysis, mechanical design, control, and fabrication as separate tasks, GARUD required them to function as parts of a single physical system.
 
-As team leader, I took primary ownership of the TVC mechanism and landing-leg systems — designing both and integrating them into the rocket.
+The engineering workflow broadly followed:
 
-## Making It Real
+**Concept → Simulation → Control → Design → Fabrication → Integration → Testing**
 
-The project moved from design and simulation into fabrication, including 3D printing, PCB procurement, mechanical assembly and system-level integration carried out with the team.
+---
 
-## Engineering Takeaway
+## My Contributions
 
-> The biggest difference between designing a mechanism and building one is everything that happens at the interfaces.
+Working within a four-member team, I contributed to the overall system development with primary involvement in:
 
-- **Duration:** Approximately 5 months
-- **Team:** 4 members
-- **Role:** Team Leader
-- **Technical Ownership:** TVC mechanism design, landing-leg design and integration into the rocket
-- **Design Tools:** Fusion 360, SOLIDWORKS
-- **Simulation and Control:** MATLAB/Simulink, RockSim
-- **Physical Development:** 3D printing, fabrication, PCB procurement, assembly and integration
+- **Mechanical Design:** CAD development of the TVC mechanism and deployable landing leg assembly.
+- **Control & Simulation:** Development of the flight-physics simulation and thrust-vector-control logic.
+- **Fabrication:** 3D-printing and physical development of mechanical components.
+- **System Integration:** Working across subsystems to translate digital designs into physical hardware.
+
+---
+
+## Technical Areas
+
+- Systems Engineering
+- Mechanical Design and CAD
+- Thrust Vector Control
+- Flight and Trajectory Simulation
+- PID Control
+- Physical Prototyping and Additive Manufacturing
+
+---
+
+## Tools Used
+
+**Design & CAD:** Fusion 360, SOLIDWORKS  
+**Simulation & Control:** Python, MATLAB/Simulink, RockSim  
+**Fabrication:** FDM 3D Printing
+
+---
+
+## Key Takeaway
+
+GARUD demonstrated the difference between designing a component and building a functioning system. Digital models and simulations must eventually contend with manufacturing limitations, tolerances, assembly, hardware integration, and the practical uncertainties of physical engineering.
+
+The project remains one of my most important engineering experiences because it brought multiple disciplines together and required an idea to survive the transition from concept to hardware.
