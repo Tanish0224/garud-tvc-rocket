@@ -55,7 +55,7 @@ The assembled GARUD rocket demonstrates the integration of the mechanical struct
 
 ## My Contributions
 
-As team leader of the four-member team, my contributions included:
+As team leader, my contributions included:
 
 - **Team Leadership:** Coordinated multidisciplinary work across mechanical design, avionics, simulation, and hardware integration to keep the project moving towards a common system-level objective.
 - **Mechanical Design:** Developed CAD models of the TVC mechanism and deployable landing-leg assembly.
