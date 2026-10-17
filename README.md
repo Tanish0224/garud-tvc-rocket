@@ -68,7 +68,7 @@ GARUD progressed from mechanical design and subsystem integration to a physical 
 The incident highlighted the importance of propulsion-system reliability and of verifying that supplied hardware meets the intended operating requirements before system-level testing.
 
 <p align="center">
-  <img src="figures/garud-launch-attempt.jpg"
+  <img src="figures/garud-launch-attempt.png"
        width="440"
        alt="GARUD rocket during its launch attempt">
 </p>
