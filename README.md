@@ -1,66 +1,88 @@
-﻿# Project GARUD: Thrust-Vector-Controlled Model Rocket
+# Project GARUD: Thrust-Vector-Controlled Model Rocket
 
 **Project Objective:**  
-Design, analysis, fabrication, and testing of a thrust-vector-controlled (TVC) model rocket.
+Design, simulation, fabrication, and integration of a thrust-vector-controlled (TVC) model rocket incorporating a dual-motor ascent-and-landing concept.
 
-GARUD was a four-member multidisciplinary engineering project spanning simulation, mechanical design, control-system development, fabrication, and physical integration. **I served as the team leader, coordinating work across these areas to bring the different subsystems together into a unified rocket prototype.**
+GARUD was a four-member multidisciplinary engineering project spanning mechanical design, flight simulation, control-system development, fabrication, and hardware integration. As team leader, I coordinated work across these areas while contributing to the design and development of key mechanical subsystems.
 
 ---
 
 ## Project Overview
 
-The project was an end-to-end engineering exercise in developing a thrust-vector-controlled model rocket. Rather than treating trajectory analysis, mechanical design, control, and fabrication as separate tasks, GARUD required them to function as parts of a single physical system.
+GARUD explored the development of a rocket with thrust-vector control for directional control and a dedicated powered-landing concept. The proposed dual-motor configuration assigned separate propulsion systems to ascent and landing.
 
-As team leader, I coordinated collaboration across the mechanical design, avionics, and control aspects of the project while contributing to the design and development of key mechanical subsystems.
+The project brought together mechanical design, flight-physics simulation, control-system development, and physical prototyping. Although the powered-landing objective was not achieved, the project provided practical experience in integrating multiple engineering subsystems and working through the challenges of translating a design concept into hardware.
 
 The engineering workflow broadly followed:
 
-**Concept → Simulation → Control → Design → Fabrication → Integration → Testing**
+**Concept → Simulation → Control → CAD Design → Fabrication → Integration**
 
 ---
 
 ## Design and Hardware
 
-### TVC Mount Design
+### 1. TVC Mount Design
 
-The CAD model shows the thrust-vector-control (TVC) mount and its mechanical components, forming the basis for the rocket's thrust-vectoring assembly.
+The CAD model shows the thrust-vector-control (TVC) mount and its mechanical components, forming the basis of the rocket's thrust-vectoring assembly.
 
-![TVC Mount CAD Model](figures/tvc-mount-cad.png)
+<p align="center">
+  <img src="figures/tvc-mount-cad.png" width="440" alt="GARUD thrust-vector-control mount CAD model">
+</p>
 
-### Deployable Landing-Leg Mechanism
+### 2. Deployable Landing-Leg Mechanism
 
 The landing-leg assembly was designed to provide a compact configuration and deployable support for the rocket. The model shows the mechanism in its folded and deployed configurations.
 
-![Deployable Landing-Leg Mechanism](figures/landing-legs-folded-deployed.png)
+<p align="center">
+  <img src="figures/landing-legs-folded-deployed.png" width="540" alt="GARUD landing-leg mechanism in folded and deployed configurations">
+</p>
 
-### Full Rocket CAD Assembly
+### 3. Full Rocket CAD Assembly
 
 The transparent CAD assembly provides an overview of the rocket's internal arrangement, including the electronics, TVC assembly, and landing-leg mechanism.
 
-![GARUD Transparent CAD Assembly](figures/garud-transparent-assembly.png)
+<p align="center">
+  <img src="figures/garud-transparent-assembly.png" width="380" alt="Transparent CAD assembly of the GARUD rocket">
+</p>
 
-### TVC Hardware and Control Electronics
+### 4. TVC Hardware and Servos
 
-The assembled TVC mount, servos, and control electronics show the transition from mechanical design to hardware integration.
+The assembled TVC mount with servos illustrates the transition from mechanical design to actuator integration and control-system development.
 
-![TVC Mount with Servos and Control Electronics](figures/tvc-mount-servo-calibration.png)
+<p align="center">
+  <img src="figures/tvc-mount-servo-calibration.png" width="440" alt="GARUD TVC mount with servos">
+</p>
 
-### Physical Prototype
+### 5. Physical Prototype
 
-The assembled GARUD rocket demonstrates the integration of the mechanical structure, TVC assembly, and landing-leg mechanism into a physical prototype.
+The assembled GARUD rocket demonstrates the physical integration of the rocket structure, TVC assembly, and landing-leg mechanism.
 
-![GARUD Assembled Physical Prototype](figures/garud-assembled-rocket.png)
+<p align="center">
+  <img src="figures/garud-assembled-rocket.png" width="300" alt="Assembled GARUD physical rocket prototype">
+</p>
+
+### Launch Attempt and Test Outcome
+
+GARUD progressed from mechanical design and subsystem integration to a physical launch attempt. The vehicle lifted off, but the propulsion system did not follow the intended burn behaviour, and the test ended before the planned flight and powered-landing sequence could be demonstrated.
+
+The incident highlighted the importance of propulsion-system reliability and of verifying that supplied hardware meets the intended operating requirements before system-level testing.
+
+<p align="center">
+  <img src="figures/garud-launch-attempt.jpg"
+       width="440"
+       alt="GARUD rocket during its launch attempt">
+</p>
 
 ---
 
 ## My Contributions
 
-As team leader, my contributions included:
+As team leader of the four-member team, my contributions included:
 
-- **Team Leadership:** Coordinated multidisciplinary work across mechanical design, avionics, simulation, and hardware integration to keep the project moving towards a common system-level objective.
+- **Team Leadership:** Coordinated work across mechanical design, avionics, simulation, and hardware integration towards a common system-level objective.
 - **Mechanical Design:** Developed CAD models of the TVC mechanism and deployable landing-leg assembly.
-- **Control & Simulation:** Contributed to flight-physics simulation and thrust-vector-control logic.
-- **Fabrication:** Contributed to 3D printing and the physical development of mechanical components.
+- **Control and Simulation:** Contributed to flight-physics simulation and thrust-vector-control logic using Python and MATLAB/Simulink.
+- **Fabrication:** Contributed to 3D printing and physical development of mechanical components.
 - **System Integration:** Worked across subsystems to translate digital designs into physical hardware.
 
 ---
@@ -72,6 +94,7 @@ As team leader, my contributions included:
 - Thrust Vector Control
 - Flight and Trajectory Simulation
 - PID Control
+- Dual-Motor Propulsion Concept
 - Physical Prototyping and Additive Manufacturing
 - Cross-Functional Team Leadership
 
@@ -79,14 +102,14 @@ As team leader, my contributions included:
 
 ## Tools Used
 
-**Design & CAD:** Fusion 360, SOLIDWORKS  
-**Simulation & Control:** Python, MATLAB/Simulink, RockSim  
+**Design and CAD:** Fusion 360, SOLIDWORKS  
+**Simulation and Control:** Python, MATLAB/Simulink, RockSim  
 **Fabrication:** FDM 3D Printing
 
 ---
 
 ## Key Takeaway
 
-GARUD demonstrated the difference between designing individual components and bringing them together into a functioning engineering system. As team leader, I experienced the importance of coordinating across disciplines while accounting for manufacturing constraints, assembly, hardware integration, and the practical challenges of physical engineering.
+GARUD demonstrated the challenges of developing an integrated aerospace system beyond its individual components. Leading a multidisciplinary team through mechanical design, simulation, control development, fabrication, and integration helped me understand the practical constraints involved in translating an engineering concept into physical hardware.
 
-The project remains one of my most important engineering experiences because it brought together technical ownership, multidisciplinary collaboration, and the transition from concept to physical prototype.
+The project also highlighted the gap between a design objective and a demonstrated result, particularly in the development of a powered-landing concept.
